@@ -2,6 +2,7 @@
 node_modules/*
 support
 test
+app
 examples
 *.sock
 Min

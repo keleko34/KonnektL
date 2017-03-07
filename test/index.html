@@ -6,8 +6,15 @@
   </head>
   <body>
     <script type="text/javascript">
-      K_Components = {};
-      require(['component/test/?debug=true&edit=true'],function(){})
+      require(['KonnektL'],function(CreateKonnektL){
+        var KL = CreateKonnektL();
+        KL.onLoad(function(name,component,element){
+          var t = new component();
+          console.log(t,t.k_html,t.k_css);
+          document.body.innerHTML += t.k_html;
+        })
+        .call({},'test');
+      })
     </script>
   </body>
 </html>
