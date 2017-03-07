@@ -1,0 +1,28 @@
+{
+  "name": "konnektl",
+  "description": "Library to make load requests for KonnektJS Components",
+  "version": "0.0.1",
+  "main": "index",
+  "authors": [
+    "Keleko34"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "library",
+    "components",
+    "spa",
+    "deployable"
+  ],
+  "homepage": "https://github.com/keleko34/konnektl",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".gulp"
+  ],
+  "devDependencies": {
+    "requirejs": "~2.1.11"
+  }
+}
